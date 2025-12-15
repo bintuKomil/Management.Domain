@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace Management.Domain.Models;
 
-namespace Management.Domain.Models
-{
-    internal class Student
-    {
-    }
-}
+ public class Student
+ {
+    public int Id { get; set; }
+    public string FirstName {  get; set; }
+    public string LastName { get; set; }
+    public DateTime StudentBrtihday { get; set; }
+
+ }
